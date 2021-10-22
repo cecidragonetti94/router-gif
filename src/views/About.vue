@@ -20,8 +20,10 @@ export default {
   },
   methods: {
     async getGifs(){
-      const res = await this.axios.get("https://api.giphy.com/v1/gifs/random?&api_key=lUsKjQjMAVed9xpiPsxjOwWU2v8ZwmQY")
-     console.log(res)
+      const {data} = await this.axios.get("https://api.giphy.com/v1/gifs/random?&api_key=lUsKjQjMAVed9xpiPsxjOwWU2v8ZwmQY")
+     console.log(data)
+     this.gifs = data
+     
     }
   }
 };

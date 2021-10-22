@@ -22,7 +22,7 @@
             <p class="white--text nt-3 headline">Cecilia Dragonetti</p>
           </v-col>
           <v-col>
-              <v-btn to="/about">About</v-btn>
+              <v-btn to="/about">Gift</v-btn>
           </v-col>
           <v-col>
               <v-btn to="/">Home</v-btn>
