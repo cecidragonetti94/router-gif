@@ -1,5 +1,5 @@
 <template>
-  <v-card color="grey lighten-4" flat height="200px" tile>
+  <v-card color="grey lighten-4 mb-4">
     <v-app-bar app dense class="warning">
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
 
