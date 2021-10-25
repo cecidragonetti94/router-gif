@@ -12,13 +12,12 @@
 export default {
   data() {
     return {
-      search: "",
+      search: '',
     };
   },
   methods: {
     handlePeticion() {
        this.$emit("accion", this.search)
-        
         }
       
     },
