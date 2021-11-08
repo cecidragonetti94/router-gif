@@ -15,15 +15,12 @@
         alt="home_Alone"
         height="800"
       >
+     
       </v-img>
     </v-card>
   </div>
 </template>
-<script>
-export default {
-  
-}
-</script>
+
 <style scoped>
 h3{
 

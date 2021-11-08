@@ -15,7 +15,7 @@
 <script>
 import Gift from "../components/Gift.vue"
 import Search from '../components/Search.vue';
-import Loader from '../components/Loader.vue'
+
 
 export default {
   name: "Home",
@@ -36,7 +36,6 @@ export default {
   methods: {
     async getGifs(search){
       const key = "lUsKjQjMAVed9xpiPsxjOwWU2v8ZwmQY"
-      this.load = true
       const {data} = await this.axios.get(`https://api.giphy.com/v1/gifs/search?q=${search}&api_key=${key}`)
      this.gifs = data.data
      console.log("search",search)
